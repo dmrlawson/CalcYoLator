@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yoconveyor"
+    android:orientation="vertical" >
+
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/greenRow" android:gravity="center">
+
+    <ImageView android:src="@drawable/calcyo" android:layout_height="60px" android:layout_width="200px" android:layout_gravity="center" android:id="@+id/yol_top_logo"></ImageView>
+
+</LinearLayout>
+
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/greenRow" android:gravity="center">
+
+    <ImageView android:src="@drawable/yoarrow_left" android:layout_height="40px" android:layout_width="40px" android:layout_gravity="center" android:id="@+id/green_minus_btn"></ImageView>
+
+    <TextView android:text="TextView" android:id="@+id/green_num" android:layout_width="50px" android:layout_height="50px" android:gravity="center" android:textColor="#000000" android:background="@drawable/yoplategreen"></TextView>
+
+    <ImageView android:src="@drawable/yoarrow_right" android:layout_height="40px" android:layout_width="40px" android:layout_gravity="center" android:id="@+id/green_plus_btn"></ImageView>
+
+</LinearLayout>
+
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/blueRow" android:gravity="center">
+
+    <ImageView android:src="@drawable/yoarrow_left" android:layout_height="40px" android:layout_width="40px" android:layout_gravity="center" android:id="@+id/blue_minus_btn"></ImageView>
+
+    <TextView android:text="TextView" android:id="@+id/blue_num" android:layout_width="50px" android:layout_height="50px" android:gravity="center" android:textColor="#000000" android:background="@drawable/yoplateblue"></TextView>
+
+    <ImageView android:src="@drawable/yoarrow_right" android:layout_height="40px" android:layout_width="40px" android:layout_gravity="center" android:id="@+id/blue_plus_btn"></ImageView>
+
+</LinearLayout>
+
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/purpleRow" android:gravity="center">
+
+    <ImageView android:src="@drawable/yoarrow_left" android:layout_height="40px" android:layout_width="40px" android:layout_gravity="center" android:id="@+id/purple_minus_btn"></ImageView>
+
+    <TextView android:text="TextView" android:id="@+id/purple_num" android:layout_width="50px" android:layout_height="50px" android:gravity="center" android:textColor="#000000" android:background="@drawable/yoplatepurple"></TextView>
+
+    <ImageView android:src="@drawable/yoarrow_right" android:layout_height="40px" android:layout_width="40px" android:layout_gravity="center" android:id="@+id/purple_plus_btn"></ImageView>
+
+</LinearLayout>
+
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/orangeRow" android:gravity="center">
+
+    <ImageView android:src="@drawable/yoarrow_left" android:layout_height="40px" android:layout_width="40px" android:layout_gravity="center" android:id="@+id/orange_minus_btn"></ImageView>
+
+    <TextView android:text="TextView" android:id="@+id/orange_num" android:layout_width="50px" android:layout_height="50px" android:gravity="center" android:textColor="#000000" android:background="@drawable/yoplateorange"></TextView>
+
+    <ImageView android:src="@drawable/yoarrow_right" android:layout_height="40px" android:layout_width="40px" android:layout_gravity="center" android:id="@+id/orange_plus_btn"></ImageView>
+
+</LinearLayout>
+
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/pinkRow" android:gravity="center">
+
+    <ImageView android:src="@drawable/yoarrow_left" android:layout_height="40px" android:layout_width="40px" android:layout_gravity="center" android:id="@+id/pink_minus_btn"></ImageView>
+
+    <TextView android:text="TextView" android:id="@+id/pink_num" android:layout_width="50px" android:layout_height="50px" android:gravity="center" android:textColor="#000000" android:background="@drawable/yoplatepink"></TextView>
+
+    <ImageView android:src="@drawable/yoarrow_right" android:layout_height="40px" android:layout_width="40px" android:layout_gravity="center" android:id="@+id/pink_plus_btn"></ImageView>
+
+</LinearLayout>
+
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/redRow" android:gravity="center">
+
+    <ImageView android:src="@drawable/yoarrow_left" android:layout_height="40px" android:layout_width="40px" android:layout_gravity="center" android:id="@+id/red_minus_btn"></ImageView>
+
+    <TextView android:text="TextView" android:id="@+id/red_num" android:layout_width="50px" android:layout_height="50px" android:gravity="center" android:textColor="#000000" android:background="@drawable/yoplatered"></TextView>
+
+    <ImageView android:src="@drawable/yoarrow_right" android:layout_height="40px" android:layout_width="40px" android:layout_gravity="center" android:id="@+id/red_plus_btn"></ImageView>
+
+</LinearLayout>
+
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/greyRow" android:gravity="center">
+
+    <ImageView android:src="@drawable/yoarrow_left" android:layout_height="40px" android:layout_width="40px" android:layout_gravity="center" android:id="@+id/grey_minus_btn"></ImageView>
+
+    <TextView android:text="TextView" android:id="@+id/grey_num" android:layout_width="50px" android:layout_height="50px" android:gravity="center" android:textColor="#000000" android:background="@drawable/yoplategrey"></TextView>
+
+    <ImageView android:src="@drawable/yoarrow_right" android:layout_height="40px" android:layout_width="40px" android:layout_gravity="center" android:id="@+id/grey_plus_btn"></ImageView>
+
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center" >
+
+    <TextView android:text="TextView" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/grand_total" android:textColor="#000000" android:textSize="18sp"></TextView>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

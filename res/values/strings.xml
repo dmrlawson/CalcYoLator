@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, YoSushiCalcActivity!</string>
+    <string name="app_name">CalcYoLator</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="blue_plates">Blue Plates:</string>
+    <string name="calcyo_name">CalcYo</string>
+    <string name="black_colour">#000000</string>
+</resources>

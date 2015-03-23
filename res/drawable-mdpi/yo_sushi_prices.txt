@@ -1,0 +1,7 @@
+green	£1.70
+blue	£2.30
+purple	£2.90
+orange	£3.40
+pink	£3.90
+red	£4.30
+grey	£5.00
